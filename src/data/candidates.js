@@ -31,7 +31,7 @@ export const candidates = [
   {
     id: "annika-cho",
     name: "Annika Cho",
-    headshot: "/images/Cho_Annika_Headshot.jpeg",
+    headshot: "/images/CHO_Annika_Headshot.jpeg",
     resumePdf: "/pdfs/resumes/Cho_Annika_Resume.pdf",
     coverLetterPdf: "/pdfs/cover-letters/Cho_Annika_Cover_Letter.pdf"
   },
