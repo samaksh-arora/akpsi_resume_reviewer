@@ -36,7 +36,7 @@ const CandidateDetail = ({ candidate, viewType, onViewTypeChange }) => {
             </div>
             
             <a 
-              href="https://admin.sli.do/event/7SeF3fRtZGDjwtH9rVUVR8/polls"
+              href="https://app.sli.do/event/7SeF3fRtZGDjwtH9rVUVR8/embed/polls/45d9310f-99b4-41e0-8a2c-d530d04f82d8"
               target="_blank"
               rel="noopener noreferrer"
               className="vote-button"
