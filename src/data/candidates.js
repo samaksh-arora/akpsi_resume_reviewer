@@ -232,6 +232,13 @@ export const candidates = [
     coverLetterPdf: "/pdfs/cover-letters/Tyler_Skye_Cover_Letter.pdf"
   },
   {
+    id: "trevor-greenan",
+    name: "Trevor Greenan",
+    headshot: "/images/Greenan_Trevor_Headshot.jpeg",
+    resumePdf: "/pdfs/resumes/Greenan_Trevor_Resume.pdf",
+    coverLetterPdf: "/pdfs/cover-letters/Greenan_Trevor_Cover_Letter.pdf"
+  },
+  {
     id: "tulene-diab",
     name: "Tulene Diab",
     headshot: "/images/Diab_Tulene_headshot.jpeg",
