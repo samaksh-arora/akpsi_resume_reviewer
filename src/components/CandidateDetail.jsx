@@ -41,7 +41,7 @@ const CandidateDetail = ({ candidate, viewType, onViewTypeChange }) => {
               rel="noopener noreferrer"
               className="vote-button"
             >
-              🗳️ Vote
+              Vote
             </a>
           </div>
 

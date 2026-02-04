@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>AKPSI DELIBERATIONS</h1>
+        <h1>AKPSI DELIBERATIONS </h1>
         {selectedCandidate && (
           <button className="back-button" onClick={handleBackToList}>
             ← Back to List
