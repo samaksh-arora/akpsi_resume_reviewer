@@ -33,12 +33,11 @@ const PDFViewer = ({ pdfUrl, title, candidateName }) => {
       <div className="pdf-error">
         <div className="error-content">
           <h3>📄 {title} - {candidateName}</h3>
-          <p>❌ PDF failed to load in viewer, but direct link works:</p>
-          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" 
-             style={{display: 'inline-block', padding: '10px 20px', background: '#10b981', color: 'white', textDecoration: 'none', borderRadius: '5px', margin: '10px 0'}}>
-            📥 View PDF in New Tab
-          </a>
-          <p><small>PDF Path: {pdfUrl}</small></p>
+          <p>❌ {title} not found or failed to load</p>
+          <p><small>Expected location: {pdfUrl}</small></p>
+          <div style={{marginTop: '15px', padding: '10px', background: '#fee', borderRadius: '5px', border: '1px solid #fcc'}}>
+            <strong>Note:</strong> This file may not have been uploaded yet or the path is incorrect.
+          </div>
         </div>
       </div>
     );
