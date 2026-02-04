@@ -5,10 +5,74 @@
 
 .candidate-list h2 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: #1e293b;
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.search-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1.5rem;
+  font-size: 1.1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 3rem;
+  outline: none;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.search-input::placeholder {
+  color: #94a3b8;
+}
+
+.clear-search {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #e2e8f0;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.clear-search:hover {
+  background: #cbd5e1;
+  color: #1e293b;
+}
+
+.no-results {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+.no-results p {
+  margin: 0;
+  font-weight: 500;
 }
 
 .candidates-grid {
@@ -58,30 +122,33 @@
 
 .view-documents {
   color: #64748b;
-  font-size: 1rem;
-  margin: 0 0 1rem 0;
-  font-weight: 500;
-}
-
-.document-indicators {
-  display: flex;
-  justify-content: space-around;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.pdf-indicator {
-  background: #f8fafc;
-  color: #64748b;
-  padding: 0.5rem 1rem;
-  border-radius: 2rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  border: 1px solid #e2e8f0;
-  flex: 1;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0 0;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
+  .candidate-list h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .search-container {
+    margin-bottom: 2rem;
+  }
+
+  .search-input {
+    font-size: 1rem;
+    padding: 0.875rem 2.5rem 0.875rem 1.25rem;
+  }
+
+  .clear-search {
+    right: 1.5rem;
+    width: 24px;
+    height: 24px;
+    font-size: 1rem;
+  }
+
   .candidates-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;

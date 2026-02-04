@@ -87,7 +87,7 @@ const PDFViewer = ({ pdfUrl, title, candidateName }) => {
         >
           <Page 
             pageNumber={pageNumber} 
-            width={Math.min(800, window.innerWidth - 100)}
+            width={Math.min(600, window.innerWidth - 120)}
             renderTextLayer={false}
             renderAnnotationLayer={false}
           />
