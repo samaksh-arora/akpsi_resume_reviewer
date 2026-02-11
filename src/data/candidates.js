@@ -71,20 +71,6 @@ export const candidates = [
     coverLetterPdf: "/pdfs/cover-letters/Uresti-Garcia_Damian_Cover_Letter.pdf"
   },
   {
-    id: "daniella-daman",
-    name: "Daniella Daman",
-    headshot: "/images/Daman_Daniella_Headshot.jpeg",
-    resumePdf: "/pdfs/resumes/Daman_Daniella_Resume.pdf",
-    coverLetterPdf: "/pdfs/cover-letters/Daman_Daniella_Cover_Letter.pdf"
-  },
-  {
-    id: "destiny-lattimore",
-    name: "Destiny Lattimore",
-    headshot: "/images/Lattimore_Destiny_Headshot.jpeg",
-    resumePdf: "/pdfs/resumes/Lattimore_Destiny_Resume.pdf",
-    coverLetterPdf: "/pdfs/cover-letters/Lattimore_Destiny_Cover_Letter.pdf"
-  },
-  {
     id: "drew-hickmott",
     name: "Drew Hickmott",
     headshot: "/images/Hickmott_Drew_Headshot.jpeg",
@@ -99,25 +85,11 @@ export const candidates = [
     coverLetterPdf: "/pdfs/cover-letters/Mosallam_Elyssa_Cover_Letter.pdf"
   },
   {
-    id: "eshan-uddin",
-    name: "Eshan Uddin",
-    headshot: "/images/Uddin_Eshan_Headshot.jpeg",
-    resumePdf: "/pdfs/resumes/Uddin_Eshan_Resume.pdf",
-    coverLetterPdf: "/pdfs/cover-letters/Uddin_Eshan_Cover_Letter.pdf"
-  },
-  {
     id: "faliha-malik",
     name: "Faliha Malik",
     headshot: "/images/Malik_Faliha_Headshot.jpeg",
     resumePdf: "/pdfs/resumes/Malik_Faliha_Resume.pdf",
     coverLetterPdf: "/pdfs/cover-letters/Malik_Faliha_Cover_Letter.pdf"
-  },
-  {
-    id: "gregory-nobles",
-    name: "Gregory Nobles",
-    headshot: "/images/Nobles_Gregory_Headshot.jpeg",
-    resumePdf: "/pdfs/resumes/Nobles_Gregory_Resume.pdf",
-    coverLetterPdf: "/pdfs/cover-letters/Nobles_Gregory_Cover_Letter.pdf"
   },
   {
     id: "hadi-naseem",
@@ -197,13 +169,6 @@ export const candidates = [
     coverLetterPdf: "/pdfs/cover-letters/AhamedTariq_MohammedYusuf_Cover_Letter.pdf"
   },
   {
-    id: "samuel-walkonis",
-    name: "Samuel Walkonis",
-    headshot: "/images/Walkonis_Samuel_Headshot.jpeg",
-    resumePdf: "/pdfs/resumes/Walkonis_Samuel_Resume.pdf",
-    coverLetterPdf: "/pdfs/cover-letters/Walkonis_Samuel_Cover_Letter.pdf"
-  },
-  {
     id: "sanika-tailor",
     name: "Sanika Tailor",
     headshot: "/images/Tailor_Sanika_Headshot.jpeg",
@@ -230,13 +195,6 @@ export const candidates = [
     headshot: "/images/Tyler_Skye_Headshot.jpeg",
     resumePdf: "/pdfs/resumes/Tyler_Skye_Resume.pdf",
     coverLetterPdf: "/pdfs/cover-letters/Tyler_Skye_Cover_Letter.pdf"
-  },
-  {
-    id: "trevor-greenan",
-    name: "Trevor Greenan",
-    headshot: "/images/Greenan_Trevor_Headshot.jpeg",
-    resumePdf: "/pdfs/resumes/Greenan_Trevor_Resume.pdf",
-    coverLetterPdf: "/pdfs/cover-letters/Greenan_Trevor_Cover_Letter.pdf"
   },
   {
     id: "tulene-diab",
